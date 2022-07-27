@@ -1,5 +1,5 @@
 cd ./setup
-cp ./pacman.conf /etc/pacman.conf &
+#cp ./pacman.conf /etc/pacman.conf &
 cp ./passwd ~/.vnc/ &
 cp ./config ~/.vnc/ &
 cp ./i3cfg ~/.config/i3/
