@@ -43,3 +43,5 @@ How to start
   open VNC viever app and press on the connection you created.
 How to stop 
   close VNC viewer app and press exit in termux notification  
+
+message Wrab#0732 on discord if you have problems or questions
