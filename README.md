@@ -38,7 +38,9 @@ step 3 - cofigure VNC viewer app:
 open VNC viewer, press on a green "+"
 In address type 127.0.0.1:1
 Set any name you want.
-Password should be 123456, enable remember password option.
+!!Unencrypted connection!!
+here uncheck "warn me every time" and press ok
+Enter password that you set in step 2 and enable "Reemember password" option. Press continue.
 
 And that's it.
 
