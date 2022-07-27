@@ -9,16 +9,17 @@ having an Android phone and about 4GB of free space on it
 install Termux https://termux.dev/en/ (don't download it from play store);
 install VNC viewer https://play.google.com/store/apps/details?id=com.realvnc.viewer.android (in theory any vnc viewer will work).
 
-  step 2 - copy and paste commands in Termux
-  
-```
-pkg install git && git clone https://github.com/wrab2/absurd-on-android && ./absurd-on-android/setup.sh
-```
+  step 2 - configure Termux
 
-After it finishes you should be in another shell
+copy and paste this command in termux
+```
+pkg install git && git clone https://github.com/wrab2/absurd-on-android && chmod +x ./absurd-on-android/setup.sh && ./absurd-on-android/setup.sh && cp -r ./absurd-on-android ./arch/root/ && ./arch/startarch
+```
+press enter for every question and agree to every prompt.
+After it finishes you will be in another shell.
 
 ```
-git clone https://github.com/wrab2/absurd-on-android && cd ./absurd-on-android/ && ./setup2.sh
+cd ./absurd-on-android/ && ./setup2.sh
 ```
 
 from here you can edit ./.vnc/config to change resolution. It should be 720p if you ran previous command.
