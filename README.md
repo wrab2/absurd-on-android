@@ -2,8 +2,7 @@ How to play DI absurd on mobile?
 many people (1) ask this question. 
 
 Requirements: 
-having an Android phone. 
-about 4GB of free space on the phone
+having an Android phone and about 4GB of free space on it
 
   step 1 installing required apps:
 
