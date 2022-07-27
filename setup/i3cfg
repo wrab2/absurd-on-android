@@ -185,4 +185,4 @@ bar {
         status_command i3status
 }
 
-exec chromium --no-sandbox https://jacorb90.me/DistInc.github.io
+exec firefox https://jacorb90.me/DistInc.github.io
