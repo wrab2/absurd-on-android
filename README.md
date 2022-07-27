@@ -11,18 +11,23 @@ install Termux https://termux.dev/en/ (don't download it from play store);
 install VNC viewer https://play.google.com/store/apps/details?id=com.realvnc.viewer.android (in theory any vnc viewer will work).
 
   Step 2 - configure Termux
-
+  
+Press enter for every question you see in this step.
 copy and paste this command in termux
 ```
 pkg install git && git clone https://github.com/wrab2/absurd-on-android && chmod +x ./absurd-on-android/setup.sh && ./absurd-on-android/setup.sh && cp -r ./absurd-on-android ./arch/root/ && ./arch/startarch
 ```
-This will take a long time to finish. Press enter for every question and agree to every prompt.
+This will take a long time to finish. I not sure why, but it stalls at buiding fsck hook, if you see it stuck for 5 minutes press ctrl + c.
 After it finishes you will be in another shell.
 here copy and paste this command:
 ```
 cd ./absurd-on-android/ && chmod +x ./setup2.sh && ./setup2.sh
 ```
-you can edit ./.vnc/config to change resolution. It will be at vertical 720p if you ran previous command.
+now we need to set password for vnc. run
+``` vncpasswd ```
+and enter password. It should bee at least 6 characters. Wheen you enter password you won't see text you entered, it's ok.
+answer ```n``` to "Would you like to enter a view-only password?"
+you can edit ./.vnc/config to change resolution. It will be set at vertical 720p if you ran previous command.
 
 run
 ``` a ```
