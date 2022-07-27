@@ -6,6 +6,7 @@ cp ./config ~/.vnc/ &
 mkdir -p ~/.config/i3/
 cp ./i3cfg ~/.config/i3/
 cp ./bashrc ~/.bashrc
+. ~/.bashrc
 cd
 #pacman-key --init && 
 pacman -S chromium i3-wm tigervnc -y && pacman -Syu
