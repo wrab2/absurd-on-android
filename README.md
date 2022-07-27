@@ -16,7 +16,7 @@ copy and paste this command in termux
 ```
 pkg install git && git clone https://github.com/wrab2/absurd-on-android && chmod +x ./absurd-on-android/setup.sh && ./absurd-on-android/setup.sh && cp -r ./absurd-on-android ./arch/root/ && ./arch/startarch
 ```
-This will take a long time to finish. If you feel that it's stuck on a single line for far too long you can presss ctrl+c to interrupt it. Press enter for every question and agree to every prompt.
+This will take a long time to finish. Press enter for every question and agree to every prompt.
 After it finishes you will be in another shell.
 here copy and paste this command:
 ```
