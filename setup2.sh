@@ -9,4 +9,4 @@ cp ./bashrc ~/.bashrc
 . ~/.bashrc
 cd
 #pacman-key --init && 
-pacman -S chromium i3-wm tigervnc -y && pacman -Syu
+pacman -S firefox i3-wm tigervnc -y && pacman -Syu
