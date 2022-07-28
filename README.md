@@ -5,11 +5,13 @@ What we're going to do is install minimalistic linux distro with window manager 
 Requirements: 
 having an Android phone and about 4GB of free space on it.
 
+  
   Step 1 - install required apps:
 
 install Termux https://termux.dev/en/ (don't download it from play store);
 install VNC viewer https://play.google.com/store/apps/details?id=com.realvnc.viewer.android (in theory any vnc viewer will work).
 
+  
   Step 2 - configure Termux:
 
 first of all go to your phone settings, in apps tab find termux and grant access to files and media. 
@@ -40,15 +42,22 @@ run
 ``` a ```
 to start vnc
 
-step 3 - cofigure VNC viewer app:
 
-open VNC viewer, press on a green "+"
-In address type 127.0.0.1:1
-Set any name you want.
-!!Unencrypted connection!!
-here uncheck "warn me every time" and press ok
-Enter password that you set in step 2 and enable "Remember password" option. Press continue.
-complete tutorial to understand how to use this app.
+  step 3 - cofigure VNC viewer app:
+
+open VNC viewer, press on a green "+" 
+
+In address type 127.0.0.1:1 
+
+Set any name you want. 
+
+!!Unencrypted connection!! 
+
+here uncheck "warn me every time" and press ok 
+
+Enter password that you set in step 2 and enable "Remember password" option. Press continue. 
+
+complete tutorial to understand how to use this app. 
 
 And that's it.
 
