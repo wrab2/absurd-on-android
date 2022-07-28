@@ -10,7 +10,8 @@ having an Android phone and about 4GB of free space on it.
 install Termux https://termux.dev/en/ (don't download it from play store);
 install VNC viewer https://play.google.com/store/apps/details?id=com.realvnc.viewer.android (in theory any vnc viewer will work).
 
-  Step 2 - configure Termux
+  Step 2 - configure Termux:
+
 first of all go to your phone settings, in apps tab find termux and grant access to files and media. 
 
 Press enter for every question you see in this step.
