@@ -32,14 +32,14 @@ of firefox (only if chromium doesn't work)
 ```insstall-firefox```
 
 now we need to set password for vnc. run
-``` vncpasswd ```
+```vncpasswd```
 and enter password. It should bee at least 6 characters. Wheen you enter password you won't see text you entered, it's ok.
 answer ```n``` to "Would you like to enter a view-only password?"
-you can edit ./.vnc/config to change resolution. It will be set at vertical 720p if you ran previous command.
+You can edit ./.vnc/config to change resolution. It will be set at vertical 720p if you ran previous command.
 
 
 run
-``` a ```
+```a```
 to start vnc
 
 
@@ -57,15 +57,15 @@ here uncheck "warn me every time" and press ok
 
 Enter password that you set in step 2 and enable "Remember password" option. Press continue. 
 
-complete tutorial to understand how to use this app. 
+complete tutorial on how to use this app if you want. 
 
 And that's it.
 
-How to start
+How to start 
  to start open termux and run
-  ```  a  ```
+  ```a```
   then again
-  ```  a  ``` 
+  ```a``` 
   open VNC viever app and press on the connection you created.
   
 How to stop 
