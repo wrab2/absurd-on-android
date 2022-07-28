@@ -19,7 +19,7 @@ first of all go to your phone settings, in apps tab find termux and grant access
 
 Press enter for every question you see in this step. 
 
-copy and paste this command in termux
+copy and paste this command in termux:
 ```
 pkg install git && git clone https://github.com/wrab2/absurd-on-android && chmod +x ./absurd-on-android/setup.sh && ./absurd-on-android/setup.sh && cp -r ./absurd-on-android ./arch/root/ && ./arch/startarch
 ```
@@ -31,7 +31,7 @@ You also need a browser to play DI.
 
 You can install chromium by running 
 ```install-chromium```
-of firefox (only if chromium doesn't work)
+or firefox (only if chromium doesn't work)
 ```insstall-firefox```
 
 now we need to set password for vnc. run
