@@ -4,7 +4,6 @@ mkdir -p ~/.vnc
 cp ./passwd ~/.vnc/ &
 cp ./config ~/.vnc/ &
 mkdir -p ~/.config/i3/
-cp ./i3cfg ~/.config/i3/
 cp ./bashrc ~/.bashrc
 . ~/.bashrc
 cd
