@@ -8,7 +8,8 @@ having an Android phone and about 4GB of free space on it.
   
   Step 1 - install required apps:
 
-install Termux https://termux.dev/en/ (don't download it from play store);
+install Termux https://termux.dev/en/ (don't download it from play store); 
+
 install VNC viewer https://play.google.com/store/apps/details?id=com.realvnc.viewer.android (in theory any vnc viewer will work).
 
   
@@ -16,7 +17,8 @@ install VNC viewer https://play.google.com/store/apps/details?id=com.realvnc.vie
 
 first of all go to your phone settings, in apps tab find termux and grant access to files and media. 
 
-Press enter for every question you see in this step.
+Press enter for every question you see in this step. 
+
 copy and paste this command in termux
 ```
 pkg install git && git clone https://github.com/wrab2/absurd-on-android && chmod +x ./absurd-on-android/setup.sh && ./absurd-on-android/setup.sh && cp -r ./absurd-on-android ./arch/root/ && ./arch/startarch
@@ -25,7 +27,8 @@ This will take a long time to finish. After it finishes copy and paste this comm
 ```
 cd ./absurd-on-android/ && chmod +x ./setup2.sh && ./setup2.sh
 ```
-You also need a browser to play DI.
+You also need a browser to play DI. 
+
 You can install chromium by running 
 ```install-chromium```
 of firefox (only if chromium doesn't work)
@@ -61,14 +64,21 @@ complete tutorial on how to use this app if you want.
 
 And that's it.
 
-How to start 
+=====
+
+How to start
+
  to start open termux and run
   ```a```
   then again
   ```a``` 
+  
   open VNC viever app and press on the connection you created.
   
+=====
+  
 How to stop 
+
   close VNC viewer app and press exit in termux notification  
 
 message Wrab#0732 on discord if you have problems or questions
